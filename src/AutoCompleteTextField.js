@@ -267,7 +267,7 @@ class AutocompleteTextField extends React.Component {
           onKeyDown(event);
           break;
       }
-      if (event.keyCode === KEY_RETURN) {
+      if ([KEY_RETURN, KEY_ENTER].includes(event.keyCode)) {
         event.stopPropagation();
       }
     } else {

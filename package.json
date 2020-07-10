@@ -1,6 +1,6 @@
 {
-  "name": "react-autocomplete-input",
-  "version": "1.0.14",
+  "name": "@silverwind/react-autocomplete-input",
+  "version": "3.0.1",
   "description": "Autocomplete input field for React",
   "main": "dist/bundle.js",
   "scripts": {
